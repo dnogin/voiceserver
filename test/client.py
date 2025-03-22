@@ -7,7 +7,7 @@ CHUNK_SIZE = 1024  # same as server expects
 WAV_FILE = "test.wav"
 
 async def stream_audio():
-    async with websockets.connect("ws://localhost:8765") as websocket:
+    async with websockets.connect("ws://192.168.88.111:8765") as websocket:
         print("Connected to server")
         with wave.open(WAV_FILE, 'rb') as wf:
             assert wf.getnchannels() == 1
