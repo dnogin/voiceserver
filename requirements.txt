@@ -1,0 +1,7 @@
+websockets>=15.0.1
+numpy>=2.2.4
+matplotlib>=3.10.1
+sounddevice>=0.5.1
+pyqtgraph>=0.13.7
+PyQt5>=5.15.11
+qasync
